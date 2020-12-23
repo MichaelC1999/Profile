@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://cdnjs.cloudflare.com ">
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <link rel="shortcut icon" href="globe.png" type='image/x-icon'/>
+    <title>Projects</title>
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <button id="side-menu-toggle" style="margin-left: 1rem;" class="btn">Menu</button>
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item">
+                    <a href="index.html">Profile</a>
+                </li>
+                <li class="main-header__item">
+                    <a class="active" href="projects.html">Projects</a>
+                </li>
+                
+                
+                <li class="main-header__item">
+                    <a href="skills.html">Skills</a>
+                </li>         
+                <li class="main-header__item">
+                    <a href="contact.html">Contact</a>
+                </li>    
+            </ul>
+            
+        </nav>
+    </header>
+    
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__item-list">
+            <li class="mobile-nav__item">
+                <a href="index.html">Profile</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a class="active" href="projects.html">Projects</a>
+            </li>
+            
+            <li class="mobile-nav__item">
+                <a href="skills.html">Skills</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        
+    </nav>
+
+    
+    <main>
+        <h2>Projects</h2>
+        
+            
+                <div class="group">
+            
+            
+            <div class="item">
+                <h3>MapApp</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/map-app">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://mapapp-client.herokuapp.com/">Live App</a>
+                    
+                </div>
+                <h4>11/20/20</h4>
+                <img src="https://i.imgur.com/JHFzcTn.png" class="image">
+                <p>An application for sharing posts about different locations. This application uses React for the frontend, making use of MapBox API for the interactive map. The backend divides the data into two seperate collections; entries and markers. Markers are rendered to the map by their Lat/Long and make a request to the backend when clicked. This request sends the entry ID and fetches the entry data from the database.</p>
+                
+            </div>
+            
+        
+            
+            
+            <div class="item">
+                <h3>WheresApp frontend</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/WheresApp-Frontend">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://wheresapp-application.herokuapp.com/">Live App</a>
+                    
+                </div>
+                <h4>11/10/20</h4>
+                <img src="https://i.imgur.com/ooxQiGh.png" class="image">
+                <p>The React frontend of WheresApp, a rehashed and reconstructed social media application similar to my other social media project.This project was built completely from scratch as well, and the data feed is displayed in a completely different format than the "Feed" social media project. This app requests to the Node.js backend.</p>
+                
+            </div>
+            
+        
+            
+            
+            <div class="item">
+                <h3>WheresApp backend</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/wheresapp-backend">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://wheresapp-application.herokuapp.com/">Live App</a>
+                    
+                </div>
+                <h4>11/16/20</h4>
+                <img src="https://i.imgur.com/Xrs8lHY.png" class="image">
+                <p>This is the server code for 'WheresApp', my social media application. The backend was written in Express/Node.js and accepts requests from the React frontend. Request capabilities include authentication and posting to the database. Users can login and create/edit/delete posts. Users can now also make comments on any post. Profile images and post images get uploaded and hosted to Cloudinary.</p>
+                
+            </div>
+            
+        
+            
+            
+                </div>
+                <div class="group">
+            
+            <div class="item">
+                <h3>Social Platform</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/React-social-platform-frontend">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://feed-social-media-site.herokuapp.com/">Live App</a>
+                    
+                </div>
+                <h4>10/12/20</h4>
+                <img src="https://i.imgur.com/Z3p50nu.png" class="image">
+                <p>Alternate version of my blog/social platform application. Users can signup/login and make posts with text and images. Users can also edit and delete all of their own past posts. Pagination limits each page to pulling three posts at a time. This was built in React, and is composed of Stateful and Stateless components. This app requests to an Express/Node.js back-end, handling all CRUD operations on posts. Sockets are used to live update the feed for all clients.</p>
+                
+            </div>
+            
+        
+            
+            
+            <div class="item">
+                <h3>Node Shop</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/Node-shop">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://nodejs-shop-1.herokuapp.com/">Live App</a>
+                    
+                </div>
+                <h4>10/6/20</h4>
+                <img src="https://i.imgur.com/yAwbkdy.png" class="image">
+                <p>Functioning online shop, with customer and owner features. Customer can browse and purchase items, and view order invoices. The Admin can add/edit products in the shop. Built in Node/Express with views rendered in EJS.  NOTE: If you wish to test the admin features, send me an email at michaelcarroll1999@gmail.com</p>
+                
+            </div>
+            
+        
+            
+            
+            <div class="item">
+                <h3>React Burger Stacker</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/Burger-Stacker-React">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://burger-stacker.herokuapp.com/">Live App</a>
+                    
+                </div>
+                <h4>10/18/20</h4>
+                <img src="https://i.imgur.com/H7jLgYo.png" class="image">
+                <p>This app allows users to create a custom burger and order it. The user must authenticate to order. Once the user is logged in, they can also view prior orders. This application was built entirely in React and is connected to a Firebase database, using the out-of-the-box authentication. The React features used for this project include Redux and Routing.</p>
+                
+            </div>
+            
+        
+            
+            
+                </div>
+                <div class="group">
+            
+            <div class="item">
+                <h3>Whack-a-mole</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/whack-a-mole">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://whack-a-mole-react-app.herokuapp.com/">Live App</a>
+                    
+                </div>
+                <h4>9/15/20</h4>
+                <img src="https://i.imgur.com/pSanjDE.png" class="image">
+                <p>Can you beat my high score? Fully coded in React. The leader board is stored on Firebase. The user clicks on as many moles as possible, while they appear and disappear off the game board.</p>
+                
+            </div>
+            
+        
+            
+            
+            <div class="item">
+                <h3>National Park API Search</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/National-Park-List">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://michaelc1999.github.io/National-Park-List/">Live App</a>
+                    
+                </div>
+                <h4>8/17/20</h4>
+                <img src="https://i.imgur.com/P890fa1.png" class="image">
+                <p>User gives a state, and the program lists national parks found in the state. This application uses the National Parks Services API.</p>
+                
+            </div>
+            
+        
+            
+            
+            <div class="item">
+                <h3>jQuery Geography Quiz</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/Quiz-app">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://michaelc1999.github.io/Quiz-app/">Live App</a>
+                    
+                </div>
+                <h4>8/16/20</h4>
+                <img src="https://i.imgur.com/QjQlNXP.png" class="image">
+                <p>Test your knowledge of the globe you live on. This quiz app asks 10 questions about geography. Built with jQuery to handle events and make an interactive application.</p>
+                
+            </div>
+            
+        
+            
+            
+                </div>
+                <div class="group">
+            
+            <div class="item">
+                <h3>Find Somewhere</h3>
+                <div class="group" style="margin: 0;">
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://github.com/MichaelC1999/Find-somewhere">Check the Repo</a>
+                    
+                    
+                        <a class="btn" style="margin: 12px 3px 0 3px; flex: 1; flex-direction: row;" href="https://michaelc1999.github.io/Find-somewhere/">Live App</a>
+                    
+                </div>
+                <h4>8/29/20</h4>
+                <img src="https://i.imgur.com/jisNKIN.png" class="image">
+                <p>The user searches for a city and is returned a list of local Github users and photos of the given city. If there are many users in that city, the chance of it being a tech hub with a good amount of jobs is higher. The images help the user visualize being in the city. </p>
+                
+            </div>
+            
+        
+        </div>
+    </main>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

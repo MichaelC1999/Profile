@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://cdnjs.cloudflare.com ">
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <link rel="shortcut icon" href="globe.png" type='image/x-icon'/>
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="backdrop"></div>
+    <header class="main-header">
+        <button id="side-menu-toggle" style="margin-left: 1rem;" class="btn">Menu</button>
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item">
+                    <a class="active" href="index.html">Profile</a>
+                </li>
+                <li class="main-header__item">
+                    <a href="projects.html">Projects</a>
+                </li>
+                
+                
+                <li class="main-header__item">
+                    <a href="skills.html">Skills</a>
+                </li>         
+                <li class="main-header__item">
+                    <a href="contact.html">Contact</a>
+                </li>    
+            </ul>
+            
+        </nav>
+    </header>
+    
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__item-list">
+            <li class="mobile-nav__item">
+                <a class="active" href="index.html">Profile</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="projects.html">Projects</a>
+            </li>
+            
+            <li class="mobile-nav__item">
+                <a href="skills.html">Skills</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        
+    </nav>
+
+    
+<main>
+    <div class="group">
+        
+        <div class="item">
+            <img src="https://i.imgur.com/EDIfdCi.jpg" alt="Michael Carroll image" class="image">
+        </div>
+        
+        <div class="group" style="flex: 1; flex-direction: column;">
+            <p class="item" style="font-size: 21px; text-align: justify;">
+                Welcome! My name is <b>Michael Carroll</b>, and I am a Full Stack developer. 
+                I specialize in React for front-end applications and Node.js for back-end server code. 
+                Although I am just now starting to professionally develop programs, I am happy with the quality 
+                of my applications. Check out my <a style="color: white;" href="projects.html">projects</a> to see my work so far.
+            </p>
+            <div class="item">
+                <h3>Here is one of my feature projects</h3>
+                <img src="https://i.imgur.com/H7jLgYo.png" alt="Burger Stacker" style="width: 60%; margin: 12px;">
+                <h3>React Burger Stacker</h3>
+                <a href="https://burger-stacker.herokuapp.com/" style="margin-top: 10px;" class="btn">Try it out!</a>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
